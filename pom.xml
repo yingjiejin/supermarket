@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.super.market</groupId>
+    <artifactId>super-market</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0</version>
+    <modules>
+        <module>super-market-app</module>
+        <module>super-market-sdk</module>
+        <module>super-market-biz</module>
+        <module>super-market-dao</module>
+        <module>super-market-utils</module>
+    </modules>
+
+
+</project>

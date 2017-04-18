@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/super-market-app/super-market-app.iml" filepath="$PROJECT_DIR$/super-market-app/super-market-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/super-market-biz/super-market-biz.iml" filepath="$PROJECT_DIR$/super-market-biz/super-market-biz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/super-market-dao/super-market-dao.iml" filepath="$PROJECT_DIR$/super-market-dao/super-market-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/super-market-sdk/super-market-sdk.iml" filepath="$PROJECT_DIR$/super-market-sdk/super-market-sdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/super-market-utils/super-market-utils.iml" filepath="$PROJECT_DIR$/super-market-utils/super-market-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/supermarket.iml" filepath="$PROJECT_DIR$/supermarket.iml" />
+    </modules>
+  </component>
+</project>

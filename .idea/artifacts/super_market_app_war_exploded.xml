@@ -1,0 +1,30 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="super-market-app:war exploded">
+    <output-path>$PROJECT_DIR$/super-market-app/target/super-market-app</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="super-market-app" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="super-market-sdk-1.0.jar">
+            <element id="module-output" name="super-market-sdk" />
+          </element>
+          <element id="archive" name="super-market-biz-1.0.jar">
+            <element id="module-output" name="super-market-biz" />
+          </element>
+          <element id="archive" name="super-market-dao-1.0.jar">
+            <element id="module-output" name="super-market-dao" />
+          </element>
+          <element id="archive" name="super-market-utils-1.0.jar">
+            <element id="module-output" name="super-market-utils" />
+          </element>
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/super-market-app/target/super-market-app/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="super-market-app/web/Web" />
+    </root>
+  </artifact>
+</component>
