@@ -1,6 +1,5 @@
 package utils.json;
 
-import com.jayway.jsonpath.JsonPath;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 
@@ -38,15 +37,4 @@ public class JsonUtils {
 		}
 
 	}
-
-	public static boolean isValidJsonPathForAppData(String jsonPath) {
-		try {
-			Object o = JsonPath.read(appData, jsonPath);
-			return o != null;
-		} catch (Exception e) {
-			return false;
-		}
-
-	}
-
 }
