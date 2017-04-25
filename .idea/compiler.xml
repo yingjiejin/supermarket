@@ -30,12 +30,12 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="super-market-app" target="1.7" />
-      <module name="super-market-biz" target="1.7" />
-      <module name="super-market-dao" target="1.7" />
-      <module name="super-market-sdk" target="1.7" />
-      <module name="super-market-utils" target="1.7" />
-      <module name="supermarket" target="1.7" />
+      <module name="super-market-app" target="1.5" />
+      <module name="super-market-biz" target="1.5" />
+      <module name="super-market-dao" target="1.5" />
+      <module name="super-market-sdk" target="1.5" />
+      <module name="super-market-utils" target="1.5" />
+      <module name="supermarket" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
